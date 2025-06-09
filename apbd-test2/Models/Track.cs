@@ -14,7 +14,7 @@ public class Track
     
     [Required]
     [Precision(5, 2)]
-    public decimal LengthinKm { get; set; }
+    public decimal LengthInKm { get; set; }
 
     public ICollection<TrackRace> TrackRaces { get; set; } = new List<TrackRace>();
 }

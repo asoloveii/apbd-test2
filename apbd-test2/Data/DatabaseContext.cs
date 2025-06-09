@@ -33,9 +33,9 @@ public class DatabaseContext : DbContext
         
         modelBuilder.Entity<Track>().HasData(new List<Track>()
         {
-            new Track() { TrackId = 1, Name = "Track1", LengthinKm = 12 },
-            new Track() { TrackId = 2, Name = "Track2", LengthinKm = 14 },
-            new Track() { TrackId = 3, Name = "Track3", LengthinKm = 15 },
+            new Track() { TrackId = 1, Name = "Track1", LengthInKm = 12 },
+            new Track() { TrackId = 2, Name = "Track2", LengthInKm = 14 },
+            new Track() { TrackId = 3, Name = "Track3", LengthInKm = 15 },
         });
         
         modelBuilder.Entity<Race>().HasData(new List<Race>()
