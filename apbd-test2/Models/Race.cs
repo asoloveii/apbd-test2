@@ -8,11 +8,11 @@ public class Race
     public int RaceId { get; set; }
     
     [Required]
-    [StringLength(50)]
+    [MaxLength(50)]
     public string Name { get; set; } = string.Empty;
 
     [Required]
-    [StringLength(100)]
+    [MaxLength(100)]
     public string Location { get; set; } = string.Empty;
 
     [Required]
