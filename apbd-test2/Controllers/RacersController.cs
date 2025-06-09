@@ -17,7 +17,7 @@ public class RacersController : ControllerBase
     }
 
     [HttpGet("{racerId}/participations")]
-    public async Task<IActionResult> GetRacers(int racerId)
+    public async Task<IActionResult> GetRacersParticipation(int racerId)
     {
         try
         {
